@@ -5,3 +5,205 @@
 html {
   font-size: 10px;
 }
+
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Verdana', sans-serif;
+  font-size: 1.6rem;
+  color: rgb(50, 70, 70);
+  background-color: rgb(228,206,193);
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header__container {
+  padding: 20px 0;
+}
+
+.navigation {
+
+}
+
+.navigation__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.navigation__item {
+  padding-right: 20px;
+}
+
+.navigation__link {
+  padding-bottom: 10px;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: rgb(50,70,70);
+}
+
+.navigation__link:hover {
+  border-bottom: 1px solid rgb(50 70 70);
+}
+
+.main__container {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.profile {
+  background-color: rgb(245,245,245);
+}
+
+.profile__container {
+  max-width: 40%;
+  padding: 30px 50px;
+}
+
+.profile__name {
+  margin: 0 0 25px 0;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.profile__avatar {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.profile__position {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.info-block {
+  margin: 0;
+}
+
+.info-block__contacts,
+.info-block__about,
+.info-block__about,
+.info-block__languages,
+.info-block__prof-skills,
+.info-block__code-exmpl,
+.info-block__projects,
+.info-block__education {
+  padding: 45px 0 0 0;
+}
+
+.info-block__title {
+  margin: 0;
+  padding-bottom: 15px;
+  font-size: 2rem;
+  text-align: center;
+  border-bottom: 1px solid rgb(50, 70, 70);
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+}
+
+.info-block__list {
+  list-style: none;
+  margin: 0;
+  padding: 35px 0 0 0;
+  text-align: left;
+}
+
+.info-block__item {
+  position: relative;
+  padding: 10px 0 10px 50px;
+}
+
+.info-block__item::before {
+  content: '';
+  position: absolute;
+  display: block;
+}
+
+.info-block--tel {
+  background-image: url(img/call-30.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.info-block--email {
+  background-image: url(img/mail-30.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.info-block--telegram {
+  background-image: url(img/telegram-30.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.info-block--discord {
+  background-image: url(img/discord-30.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.info-block--github {
+  background-image: url(img/github-30.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.info-block__link {
+  color: rgb(50, 70, 70);
+  text-decoration: none;
+}
+
+.info-block__link:hover {
+  border-bottom: 1px solid rgb(50 70 70);
+}
+
+.info-block__description {
+  margin-bottom: 0;
+}
+
+.info-block__item--lang {
+  padding-left: 0;
+}
+
+.info-block__lang-lavel {
+  font-size: 2rem;
+}
+
+.experience {
+  padding: 30px 50px;
+  background-color: rgb(250, 250, 250);
+}
+
+.skill {
+  padding: 30px 40px 20px;
+}
+
+.skill__title {
+  margin: 0;
+  font-size: 1.9rem;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+}
+
+.skill__company {
+  display: inline-block;
+  padding: 10px 10px 10px 0;
+}
+
+.skill__description {
+  margin: 0;
+}
