@@ -211,3 +211,21 @@ body {
 .info-block__item--skill {
   font-weight: 500;
 }
+
+.info-block__code {
+  font-family: 'Source Code Pro', monospace;
+  color: rgb(175 175 175);
+  background-color: rgb(20 20 20 / 80%);
+}
+
+.info-block__title--projects {
+  margin-bottom: 15px;
+}
+
+.info-block__link--projects {
+  /* display: block; */
+  padding: 0 30px;
+  /* width: 60%; */
+  text-align: center;
+  font-size: 1.9rem;
+}
