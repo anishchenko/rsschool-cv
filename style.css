@@ -207,3 +207,7 @@ body {
 .skill__description {
   margin: 0;
 }
+
+.info-block__item--skill {
+  font-weight: 500;
+}
