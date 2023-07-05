@@ -4,6 +4,7 @@
 
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -21,10 +22,6 @@ body {
 
 .header__container {
   padding: 20px 0;
-}
-
-.navigation {
-
 }
 
 .navigation__list {
@@ -179,7 +176,7 @@ body {
   padding-left: 0;
 }
 
-.info-block__lang-lavel {
+.info-block__lang-level {
   font-size: 2rem;
 }
 
